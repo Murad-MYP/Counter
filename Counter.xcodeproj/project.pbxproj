@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		875C1FAE2C864A85007C8AD3 /* Счётчик.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Счётчик.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875C1FAE2C864A85007C8AD3 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C1FB12C864A85007C8AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875C1FB32C864A85007C8AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		875C1FB52C864A85007C8AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		875C1FBA2C864A86007C8AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875C1FBD2C864A86007C8AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875C1FBF2C864A86007C8AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		875C1FC42C864A87007C8AD3 /* СчётчикTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "СчётчикTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875C1FC42C864A87007C8AD3 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C1FC82C864A87007C8AD3 /* ________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________Tests.swift"; sourceTree = "<group>"; };
-		875C1FCE2C864A87007C8AD3 /* СчётчикUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "СчётчикUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875C1FCE2C864A87007C8AD3 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C1FD22C864A87007C8AD3 /* ________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITests.swift"; sourceTree = "<group>"; };
 		875C1FD42C864A87007C8AD3 /* ________UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "________UITestsLaunchTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		875C1FAF2C864A85007C8AD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				875C1FAE2C864A85007C8AD3 /* Счётчик.app */,
-				875C1FC42C864A87007C8AD3 /* СчётчикTests.xctest */,
-				875C1FCE2C864A87007C8AD3 /* СчётчикUITests.xctest */,
+				875C1FAE2C864A85007C8AD3 /* Counter.app */,
+				875C1FC42C864A87007C8AD3 /* CounterTests.xctest */,
+				875C1FCE2C864A87007C8AD3 /* CounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		875C1FAD2C864A85007C8AD3 /* Счётчик */ = {
+		875C1FAD2C864A85007C8AD3 /* Counter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 875C1FD82C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "Счётчик" */;
+			buildConfigurationList = 875C1FD82C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "Counter" */;
 			buildPhases = (
 				875C1FAA2C864A85007C8AD3 /* Sources */,
 				875C1FAB2C864A85007C8AD3 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = "Счётчик";
+			name = Counter;
 			productName = "Счётчик";
-			productReference = 875C1FAE2C864A85007C8AD3 /* Счётчик.app */;
+			productReference = 875C1FAE2C864A85007C8AD3 /* Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		875C1FC32C864A87007C8AD3 /* СчётчикTests */ = {
+		875C1FC32C864A87007C8AD3 /* CounterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 875C1FDB2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "СчётчикTests" */;
+			buildConfigurationList = 875C1FDB2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "CounterTests" */;
 			buildPhases = (
 				875C1FC02C864A87007C8AD3 /* Sources */,
 				875C1FC12C864A87007C8AD3 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				875C1FC62C864A87007C8AD3 /* PBXTargetDependency */,
 			);
-			name = "СчётчикTests";
+			name = CounterTests;
 			productName = "СчётчикTests";
-			productReference = 875C1FC42C864A87007C8AD3 /* СчётчикTests.xctest */;
+			productReference = 875C1FC42C864A87007C8AD3 /* CounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		875C1FCD2C864A87007C8AD3 /* СчётчикUITests */ = {
+		875C1FCD2C864A87007C8AD3 /* CounterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 875C1FDE2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "СчётчикUITests" */;
+			buildConfigurationList = 875C1FDE2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "CounterUITests" */;
 			buildPhases = (
 				875C1FCA2C864A87007C8AD3 /* Sources */,
 				875C1FCB2C864A87007C8AD3 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				875C1FD02C864A87007C8AD3 /* PBXTargetDependency */,
 			);
-			name = "СчётчикUITests";
+			name = CounterUITests;
 			productName = "СчётчикUITests";
-			productReference = 875C1FCE2C864A87007C8AD3 /* СчётчикUITests.xctest */;
+			productReference = 875C1FCE2C864A87007C8AD3 /* CounterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 875C1FA92C864A85007C8AD3 /* Build configuration list for PBXProject "Счётчик" */;
+			buildConfigurationList = 875C1FA92C864A85007C8AD3 /* Build configuration list for PBXProject "Counter" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				875C1FAD2C864A85007C8AD3 /* Счётчик */,
-				875C1FC32C864A87007C8AD3 /* СчётчикTests */,
-				875C1FCD2C864A87007C8AD3 /* СчётчикUITests */,
+				875C1FAD2C864A85007C8AD3 /* Counter */,
+				875C1FC32C864A87007C8AD3 /* CounterTests */,
+				875C1FCD2C864A87007C8AD3 /* CounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		875C1FC62C864A87007C8AD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 875C1FAD2C864A85007C8AD3 /* Счётчик */;
+			target = 875C1FAD2C864A85007C8AD3 /* Counter */;
 			targetProxy = 875C1FC52C864A87007C8AD3 /* PBXContainerItemProxy */;
 		};
 		875C1FD02C864A87007C8AD3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 875C1FAD2C864A85007C8AD3 /* Счётчик */;
+			target = 875C1FAD2C864A85007C8AD3 /* Counter */;
 			targetProxy = 875C1FCF2C864A87007C8AD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,7 +507,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Счётчик.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Счётчик";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Counter";
 			};
 			name = Debug;
 		};
@@ -527,7 +527,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Счётчик.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Счётчик";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Counter";
 			};
 			name = Release;
 		};
@@ -570,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		875C1FA92C864A85007C8AD3 /* Build configuration list for PBXProject "Счётчик" */ = {
+		875C1FA92C864A85007C8AD3 /* Build configuration list for PBXProject "Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				875C1FD62C864A87007C8AD3 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		875C1FD82C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "Счётчик" */ = {
+		875C1FD82C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "Counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				875C1FD92C864A87007C8AD3 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		875C1FDB2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "СчётчикTests" */ = {
+		875C1FDB2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				875C1FDC2C864A87007C8AD3 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		875C1FDE2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "СчётчикUITests" */ = {
+		875C1FDE2C864A87007C8AD3 /* Build configuration list for PBXNativeTarget "CounterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				875C1FDF2C864A87007C8AD3 /* Debug */,
